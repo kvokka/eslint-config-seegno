@@ -33,7 +33,8 @@
     "eslint-plugin-sort-class-members": "^1.0.1",
     "eslint-plugin-sort-imports-es6": "^0.0.3",
     "eslint-plugin-sql-template": "^2.0.0",
-    "eslint-plugin-switch-case": "^1.1.2"
+    "eslint-plugin-switch-case": "^1.1.2",
+    "eslint-plugin-wyze": "^3.3.1"
   },
   "devDependencies": {
     "eslint": "^4.8.0",
