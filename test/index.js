@@ -126,6 +126,8 @@ describe('eslint-config-seegno', () => {
       'template-curly-spacing',
       'template-curly-spacing',
       'wrap-iife',
+      'wyze/sort-destructuring-keys',
+      'wyze/sort-destructuring-keys',
       'yoda'
     ]);
   });

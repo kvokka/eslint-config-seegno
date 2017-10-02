@@ -13,7 +13,7 @@ module.exports = {
   },
   extends: ['eslint:recommended'],
   parser: 'babel-eslint',
-  plugins: ['jest', 'mocha', 'new-with-error', 'sort-class-members', 'sort-imports-es6', 'sql-template', 'switch-case'],
+  plugins: ['jest', 'mocha', 'new-with-error', 'sort-class-members', 'sort-imports-es6', 'sql-template', 'switch-case', 'wyze'],
   root: true,
   rules: {
     'accessor-pairs': 'error',
@@ -182,6 +182,7 @@ module.exports = {
     'valid-jsdoc': 'error',
     'vars-on-top': 'error',
     'wrap-iife': ['error', 'inside'],
+    'wyze/sort-destructuring-keys': 'error',
     yoda: 'error'
   }
 };
